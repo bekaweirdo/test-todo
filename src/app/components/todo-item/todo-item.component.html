@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <ul id="list">
+    {{todo.id}}
+    <li class="show">{{todo.text}}</li>
+    <button type="button" class="removeTodo" (click)="removeTodo()">Delete</button>
+    <button type="button" [routerLink]="['/TodoDetail']" class="editTodo" >Edit
+    </button>
+  </ul>
+</div>
+

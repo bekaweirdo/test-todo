@@ -1,0 +1,62 @@
+.wrapper {
+  margin-left: 120px;
+
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  color: #1E90FF;
+  font-family: "Courier New", Arial, sans-serif;
+  height: 0;
+  line-height: 2em;
+  margin: 0;
+  padding: 0 0.5em;
+  overflow: hidden;
+  width: 10em;
+}
+
+li.show {
+  height: 2em;
+  margin: 2px 0;
+}
+
+.slide-fade li {
+  transition: all 0.4s ease-out;
+  opacity: 0;
+}
+
+.slide-fade li.show {
+  opacity: 1;
+}
+
+.removeTodo {
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: rgba(203, 20, 32, 0.4);
+  border-color: rgba(203, 23, 0, 0.73);
+  background-color: transparent;
+}
+
+.editTodo {
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: rgba(203, 20, 32, 0.4);
+  border-color: rgba(0, 88, 203, 0.96);
+  background-color: transparent;
+}

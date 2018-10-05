@@ -1,0 +1,7 @@
+<div class="wrap">
+  <div class="header"><span>Todo List</span></div>
+  <app-display></app-display>
+  <div *ngFor="let todo of todoService.getTodos()">
+    <app-todo-item [todo]="todo"></app-todo-item>
+  </div>
+</div>
